@@ -374,6 +374,8 @@ will do so for Mitochondria in the following steps.
   pipeline.
 
 ## **Export data**
+
+### 13. Add ExportToDatabase
 In order to use the data visualization and machine learning tools
 in CellProfiler Analyst, the measurements will need to be saved to a
 database using the **ExportToDatabase**.
@@ -426,7 +428,7 @@ only be able to examine one object at a time in CellProfiler Analyst.*
 
 ## **Relate Nucleoli and Mitochondria to their respective nuclei/cells**
 
-### **13. Examine the settings of RelateObjects**
+### **14. Examine the settings of RelateObjects**
 
 - **After** your Measurement and **before** your Export modules you
   should find two RelateObjects modules. One relates Nucleoli to
@@ -439,7 +441,7 @@ only be able to examine one object at a time in CellProfiler Analyst.*
 
 ## **Perform the analysis on ALL the images**
 
-### **14. Run the pipeline (optional)**
+### **15. Run the pipeline (optional)**
 
 - If you have time and/or if you’d like to play with the data in
   CellProfiler Analyst later, exit test mode, close the eyes next to
